@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0543883D14509D7700B007ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0543883C14509D7700B007ED /* UIKit.framework */; };
+		0543883F14509D7700B007ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0543883E14509D7700B007ED /* Foundation.framework */; };
+		0543884114509D7700B007ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0543884014509D7700B007ED /* CoreGraphics.framework */; };
+		0543884714509D7700B007ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0543884514509D7700B007ED /* InfoPlist.strings */; };
+		0543884914509D7700B007ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543884814509D7700B007ED /* main.m */; };
+		0543884D14509D7700B007ED /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543884C14509D7700B007ED /* TCAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0543883814509D7700B007ED /* touchid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0543883C14509D7700B007ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0543883E14509D7700B007ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0543884014509D7700B007ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0543884414509D7700B007ED /* touchid-Info.plist */ = {isa = PBXFileReference; path = "touchid-Info.plist"; sourceTree = "<group>"; };
+		0543884614509D7700B007ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0543884814509D7700B007ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0543884A14509D7700B007ED /* touchid-Prefix.pch */ = {isa = PBXFileReference; path = "touchid-Prefix.pch"; sourceTree = "<group>"; };
+		0543884B14509D7700B007ED /* TCAppDelegate.h */ = {isa = PBXFileReference; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		0543884C14509D7700B007ED /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0543883514509D7700B007ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0543883D14509D7700B007ED /* UIKit.framework in Frameworks */,
+				0543883F14509D7700B007ED /* Foundation.framework in Frameworks */,
+				0543884114509D7700B007ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0543882D14509D7700B007ED = {
+			isa = PBXGroup;
+			children = (
+				0543884214509D7700B007ED /* touchid */,
+				0543883B14509D7700B007ED /* Frameworks */,
+				0543883914509D7700B007ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0543883914509D7700B007ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0543883814509D7700B007ED /* touchid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0543883B14509D7700B007ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0543883C14509D7700B007ED /* UIKit.framework */,
+				0543883E14509D7700B007ED /* Foundation.framework */,
+				0543884014509D7700B007ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0543884214509D7700B007ED /* touchid */ = {
+			isa = PBXGroup;
+			children = (
+				0543884B14509D7700B007ED /* TCAppDelegate.h */,
+				0543884C14509D7700B007ED /* TCAppDelegate.m */,
+				0543884314509D7700B007ED /* Supporting Files */,
+			);
+			path = touchid;
+			sourceTree = "<group>";
+		};
+		0543884314509D7700B007ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0543884414509D7700B007ED /* touchid-Info.plist */,
+				0543884514509D7700B007ED /* InfoPlist.strings */,
+				0543884814509D7700B007ED /* main.m */,
+				0543884A14509D7700B007ED /* touchid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0543883714509D7700B007ED /* touchid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0543885014509D7700B007ED /* Build configuration list for PBXNativeTarget "touchid" */;
+			buildPhases = (
+				0543883414509D7700B007ED /* Sources */,
+				0543883514509D7700B007ED /* Frameworks */,
+				0543883614509D7700B007ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchid;
+			productName = touchid;
+			productReference = 0543883814509D7700B007ED /* touchid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0543882F14509D7700B007ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Third Cog Software";
+			};
+			buildConfigurationList = 0543883214509D7700B007ED /* Build configuration list for PBXProject "touchid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0543882D14509D7700B007ED;
+			productRefGroup = 0543883914509D7700B007ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0543883714509D7700B007ED /* touchid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0543883614509D7700B007ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0543884714509D7700B007ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0543883414509D7700B007ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0543884914509D7700B007ED /* main.m in Sources */,
+				0543884D14509D7700B007ED /* TCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0543884514509D7700B007ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0543884614509D7700B007ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0543884E14509D7700B007ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0543884F14509D7700B007ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0543885114509D7700B007ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchid/touchid-Prefix.pch";
+				INFOPLIST_FILE = "touchid/touchid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0543885214509D7700B007ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchid/touchid-Prefix.pch";
+				INFOPLIST_FILE = "touchid/touchid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0543883214509D7700B007ED /* Build configuration list for PBXProject "touchid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0543884E14509D7700B007ED /* Debug */,
+				0543884F14509D7700B007ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0543885014509D7700B007ED /* Build configuration list for PBXNativeTarget "touchid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0543885114509D7700B007ED /* Debug */,
+				0543885214509D7700B007ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0543882F14509D7700B007ED /* Project object */;
+}
