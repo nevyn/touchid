@@ -13,6 +13,7 @@
 		0543884714509D7700B007ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0543884514509D7700B007ED /* InfoPlist.strings */; };
 		0543884914509D7700B007ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543884814509D7700B007ED /* main.m */; };
 		0543884D14509D7700B007ED /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543884C14509D7700B007ED /* TCAppDelegate.m */; };
+		0543885514509D9300B007ED /* UITouch+uniqueID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543885414509D9300B007ED /* UITouch+uniqueID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		0543883C14509D7700B007ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0543883E14509D7700B007ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0543884014509D7700B007ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0543884414509D7700B007ED /* touchid-Info.plist */ = {isa = PBXFileReference; path = "touchid-Info.plist"; sourceTree = "<group>"; };
+		0543884414509D7700B007ED /* touchid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchid-Info.plist"; sourceTree = "<group>"; };
 		0543884614509D7700B007ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0543884814509D7700B007ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0543884A14509D7700B007ED /* touchid-Prefix.pch */ = {isa = PBXFileReference; path = "touchid-Prefix.pch"; sourceTree = "<group>"; };
-		0543884B14509D7700B007ED /* TCAppDelegate.h */ = {isa = PBXFileReference; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		0543884A14509D7700B007ED /* touchid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchid-Prefix.pch"; sourceTree = "<group>"; };
+		0543884B14509D7700B007ED /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		0543884C14509D7700B007ED /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		0543885314509D9300B007ED /* UITouch+uniqueID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+uniqueID.h"; sourceTree = SOURCE_ROOT; };
+		0543885414509D9300B007ED /* UITouch+uniqueID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+uniqueID.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				0543884B14509D7700B007ED /* TCAppDelegate.h */,
 				0543884C14509D7700B007ED /* TCAppDelegate.m */,
 				0543884314509D7700B007ED /* Supporting Files */,
+				0543885314509D9300B007ED /* UITouch+uniqueID.h */,
+				0543885414509D9300B007ED /* UITouch+uniqueID.m */,
 			);
 			path = touchid;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			files = (
 				0543884914509D7700B007ED /* main.m in Sources */,
 				0543884D14509D7700B007ED /* TCAppDelegate.m in Sources */,
+				0543885514509D9300B007ED /* UITouch+uniqueID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
