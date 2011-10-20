@@ -1,7 +1,7 @@
 #import "UITouch+uniqueID.h"
 #import <objc/runtime.h>
 
-static const NSString *kTCUniqueIdKey;
+static const void *kTCUniqueIdKey = &kTCUniqueIdKey;
 
 @implementation UITouch (TCUniqueID)
 -(NSString*)tc_uniqueId;
